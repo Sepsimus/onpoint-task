@@ -1,0 +1,15 @@
+.header__main-link{
+    margin-left: 66px;
+    margin-top: 26px;
+    padding: 0px;
+    height: 26px;
+    width: 153px;
+    background-repeat: no-repeat;
+    background-image: url(../../../image/header.png);
+    background-color: transparent;
+    border: none;
+}
+
+.header__main-link:hover{
+    cursor: pointer;
+}

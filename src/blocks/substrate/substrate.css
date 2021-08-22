@@ -1,0 +1,6 @@
+.substrate{
+    overflow: hidden;
+    max-height: 1536px;
+    background-image: url(../../image/background.jpg);
+    background-size: cover;
+}
