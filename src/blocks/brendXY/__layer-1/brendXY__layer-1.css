@@ -1,3 +1,10 @@
 .brendXY__layer-1{
-    
+    position: absolute;
+    z-index: 2;
+    top: 19px;
+    left: 0px;
+    width: 316px;
+    height: 781px;
+    background-image: url(../../../image/layer-1.png);
+    background-size: cover;
 }

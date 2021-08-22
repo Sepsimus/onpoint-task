@@ -1,7 +1,6 @@
 .brendXY__data{
     display: flex;
     position: relative;
-    z-index: 2;
     background-color: #FFFFFF;
     height: 150px;
     width: 265px;

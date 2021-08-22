@@ -10,8 +10,8 @@ function Slider() {
         <>
             <Header />
             <div className="slider">
-                {/*<Main className="slider__item" />
-                <Text className="slider__item"/>*/}
+                <Main className="slider__item" />
+                <Text className="slider__item"/>
                 <BrendXY className="slider__item"/>
             </div>
             <Footer/>

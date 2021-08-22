@@ -30,10 +30,12 @@
 @import url(./blocks/brendXY/__data/brendXY__data.css);
 @import url(./blocks/brendXY/__effect/brendXY__effect.css);
 @import url(./blocks/brendXY/__layer-1/brendXY__layer-1.css);
-@import url(./blocks/brendXY/__logo/brendXY__logo.css);
 @import url(./blocks/brendXY/__product/brendXY__product.css);
 @import url(./blocks/brendXY/__product/_type/brendXY__product_type_bold.css);
-@import url(./blocks/brendXY/__text/brendXY__text.css);
+@import url(./blocks/brendXY/__data-logo/brendXY__data-logo.css);
+@import url(./blocks/brendXY/__data-text/brendXY__data-text.css);
+@import url(./blocks/brendXY/__effect-logo/brendXY__effect-log.css);
+@import url(./blocks/brendXY/__effect-text/brendXY__effect-text.css);
 @import url(./blocks/brendXY/__title/brendXY__title.css);
 @import url(./blocks/brendXY/__wrapper/brendXY__wrapped.css);
 
