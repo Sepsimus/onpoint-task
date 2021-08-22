@@ -1,5 +1,7 @@
 @import url(./vendor/normalize.css);
 
+@import url(./vendor/font.css);
+
 @import url(./blocks/substrate/substrate.css);
 
 @import url(./blocks/header/header.css);
@@ -8,6 +10,7 @@
 @import url(./blocks/slider/slider.css);
 
 @import url(./blocks/main/main.css);
+@import url(./blocks/main/__layer-1/main__layer-1.css);
 @import url(./blocks/main/__button/main__button.css);
 @import url(./blocks/main/__greeting/main__greeting.css);
 @import url(./blocks/main/__title/_type/main__title_type_bold.css);

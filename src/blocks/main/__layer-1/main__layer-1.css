@@ -1,0 +1,6 @@
+.main__layer-1{
+    width: 1024px;
+    height: 768px;
+    background-image: url(../../../image/layer-3.png);
+    background-size: cover;
+}

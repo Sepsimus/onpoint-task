@@ -1,0 +1,27 @@
+@font-face{
+    src: url(../vendor/font/Gilroy-ExtraBold.woff) format('woff');
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    src: url(../vendor/font/Gilroy-Regular.woff) format('woff');
+    font-family: "Gilroy";
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    src: url(../vendor/font/Gilroy-Light.woff) format('woff');
+    font-family: "Gilroy";
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face{
+    src: url(../vendor/font/DINPro.woff) format('woff');
+    font-family: "DINpro";
+    font-weight: normal;
+    font-style: normal;
+}
