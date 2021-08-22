@@ -21,7 +21,14 @@
 
 @font-face{
     src: url(../vendor/font/DINPro.woff) format('woff');
-    font-family: "DINpro";
+    font-family: "DINPro";
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    src: url(../vendor/font/DINPro-Bold.woff) format('woff');
+    font-family: "DINPro";
+    font-weight: 500;
     font-style: normal;
 }

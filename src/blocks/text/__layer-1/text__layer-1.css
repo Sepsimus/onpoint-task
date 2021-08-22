@@ -1,0 +1,10 @@
+.text__layer-1{
+    position: absolute;
+    top: 0px;
+    left: 368px;
+    width: 1024px;
+    height: 768px;
+    background-image: url(../../../image/layer-2.png);
+    background-size: cover;
+    z-index: 0;
+}

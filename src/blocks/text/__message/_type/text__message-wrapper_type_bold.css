@@ -1,0 +1,9 @@
+.text__message_type_bold{
+    font-family: 'DINPro';
+    font-weight: 500;
+    font-size: normal;    
+    margin: 0px;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+}

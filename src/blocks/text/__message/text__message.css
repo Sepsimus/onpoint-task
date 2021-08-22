@@ -1,0 +1,10 @@
+.text__message{
+    font-family: 'DINPro';
+    font-weight: normal;
+    font-size: normal;    
+    margin: 0px;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    margin: 31px 31px 0px 31px;
+}
