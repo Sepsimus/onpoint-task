@@ -2,8 +2,10 @@
     margin: 0px;
     margin-top: 118px;
     margin-left: 70px;
+    margin-bottom: 36px;
     font-family: "DINpro";
     font-weight: normal;
     font-style: normal;
     font-size: 27px;
+    /*line-height: 110px;*/
 }

@@ -1,4 +1,6 @@
 .main{
+    position: relative;
+    width: 1024px;
     display: flex;
     flex-direction: column;
 }

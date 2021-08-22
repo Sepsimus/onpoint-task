@@ -11,8 +11,8 @@ function Slider() {
             <Header />
             <div className="slider">
                 <Main className="slider__item" />
-                {/*<Text className="slider__item"/>
-                <BrandXY className="slider__item"/>*/}
+                <Text className="slider__item"/>
+                {/*<BrandXY className="slider__item"/>*/}
             </div>
             <Footer/>
         </>
