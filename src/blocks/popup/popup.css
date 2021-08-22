@@ -1,0 +1,23 @@
+.popup{
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.35s linear;
+}
+
+.popup::before{
+    position: absolute;
+    content: "";
+    background-color: rgba(22, 39, 62, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}

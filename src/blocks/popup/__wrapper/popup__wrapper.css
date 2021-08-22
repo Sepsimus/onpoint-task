@@ -1,0 +1,11 @@
+.popup__wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 823px;
+    height: 573px;
+    margin-bottom: 72px;
+    margin-right: 61px;
+    background-color: #FFFFFF;
+    border-radius: 34px;
+}

@@ -1,0 +1,25 @@
+.popup__exit{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 33px;
+    right: 33px;
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+}
+.popup__exit:before, .popup__exit:after {
+    position: absolute;
+    top: 0px;
+    right: 16px;
+    content: ' ';
+    height: 36px;
+    width: 4px;
+    background-color: #000000;
+    }
+    .popup__exit:before {
+    transform: rotate(45deg);
+    }
+    .popup__exit:after {
+    transform: rotate(-45deg);
+    }
