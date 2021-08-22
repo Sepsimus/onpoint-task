@@ -53,6 +53,7 @@
 @import url(./blocks/popup/__wrapper/popup__wrapper.css);
 @import url(./blocks/popup/__list-number/popup__list-number.css);
 @import url(./blocks/popup/__footer/popup__footer.css);
+@import url(./blocks/popup/__list-position/_hidden/popup__list-position_hidden.css);
 
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__img/footer__img.css);

@@ -1,5 +1,6 @@
 import React from "react";
-import page1 from '../image/page-1.png'
+import page1 from '../image/page-1.png';
+import page2 from '../image/page-2.png';
 
 function Popup() {
     let pageImage = page1;
@@ -24,9 +25,19 @@ function Popup() {
                         <span className="popup__list-number">03</span>
                         Faucibus pulvinar elementum integer enim
                     </li>
-                    <li className="popup__list-position"></li>
-                    <li className="popup__list-position"></li>
-                    <li className="popup__list-position"></li>
+                    <li className="popup__list-position popup__list-position_hidden">
+                        <span className="popup__list-number">04</span>
+                        Mi bibendum neque egestas congue quisque 
+                        egestas diam
+                    </li>
+                    <li className="popup__list-position popup__list-position_hidden">
+                        <span className="popup__list-number">05</span>
+                        Venenatis lectus magna fringilla urna
+                    </li>
+                    <li className="popup__list-position  popup__list-position_hidden">    
+                        <span className="popup__list-number">06</span>
+                        Venenatis lectus magna fringilla urna
+                    </li>
                 </ul>
                 <div className="popup__footer">
                     <button className="popup__arrow" />

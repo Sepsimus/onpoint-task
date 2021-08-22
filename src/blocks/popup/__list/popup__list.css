@@ -1,8 +1,8 @@
 .popup__list{
     width: 474px;
-    height: 256px;
     margin: 0px;
     margin-left: 213px;
+    margin-bottom: 50px;
     padding: 0px;
     list-style-type: none;
 }
