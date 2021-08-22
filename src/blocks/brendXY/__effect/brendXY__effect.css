@@ -1,0 +1,10 @@
+.brendXY__effect{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    background-color: #FFFFFF;
+    height: 265px;
+    width: 415px;
+    border-radius: 38px;
+    box-shadow: 3px 4px 116.25px 8.75px rgba(157, 185, 198, 0.39);
+}

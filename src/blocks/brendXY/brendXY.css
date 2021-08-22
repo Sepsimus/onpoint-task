@@ -1,7 +1,6 @@
-.text{
+.brendXY{
     position: relative;
-    overflow: hidden;
-    width: 1024px;
     display: flex;
+    width: 1024px;
     flex-direction: column;
 }
