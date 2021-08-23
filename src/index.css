@@ -3,11 +3,17 @@
 @import url(./vendor/font.css);
 
 @import url(./blocks/substrate/substrate.css);
+@import url(./blocks/substrate/__first-page/substrate__first-page.css);
+@import url(./blocks/substrate/__second-page/substrate__second-page.css);
+@import url(./blocks/substrate/__third-page/substrate__third-page.css);
 
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__main-link/header__main-link.css);
 
 @import url(./blocks/slider/slider.css);
+@import url(./blocks/slider/__first-page/slider__first-page.css);
+@import url(./blocks/slider/__second-page/slider__second-page.css);
+@import url(./blocks/slider/__third-page/slider__third-page.css);
 
 @import url(./blocks/main/main.css);
 @import url(./blocks/main/__layer-1/main__layer-1.css);

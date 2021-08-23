@@ -1,6 +1,9 @@
 .substrate{
+    max-width: 1024px;
+    max-height: 768px;
     overflow: hidden;
-    background-size:cover;
+    background-size: cover;
     background-image: url(../../image/background.png);
     font-family: "DINPro", "Gilroy" "Arial", sans-serif;
+    transition: .4s;
 }

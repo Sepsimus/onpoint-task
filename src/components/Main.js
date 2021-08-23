@@ -1,6 +1,6 @@
 import React from "react";
 
-function Main() {
+function Main(props) {
     return(
             <div className="main">
             <div className="main__layer-1" />
@@ -8,7 +8,7 @@ function Main() {
                 <h2 className="main__title">ЭТО 
                     <span className="main__title_type_bold"> НЕ </span> 
                     КОММЕРЧЕСКОЕ ЗАДАНИЕ 
-                    <button className="main__button" />
+                    <button className="main__button" type="button" onClick={props.nextPage}/>
                 </h2>
         </div>
     )

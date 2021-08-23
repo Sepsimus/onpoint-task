@@ -1,4 +1,6 @@
 .slider{
+    width: 3072px;
     height: 688px;
     display: flex;
+    transition: .4s;
 }

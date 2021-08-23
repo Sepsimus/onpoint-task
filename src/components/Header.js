@@ -1,9 +1,9 @@
 import React from "react";
 
-function Header(){
+function Header(props){
     return(
         <header className="header">
-            <button className="header__main-link"/>
+            <button className="header__main-link" type="button" onClick={props.returnMainPage}/>
         </header>
     )
 }
