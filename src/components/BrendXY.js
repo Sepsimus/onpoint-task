@@ -3,10 +3,13 @@ import effectLogo from '../image/logo-1.png';
 import dataLogo from '../image/logo-2.png';
 import Popup from './Popup'
 
-function BrendXY() {
+function BrendXY(props) {
     return(
         <div className="brendXY">
-            <Popup />
+            <Popup
+                popupOpened={props.popupOpened}
+                closeAllPopups={props.closeAllPopups}
+            />
             <div className="brendXY__layer-1"/>
             <h2 className="brendXY__title">КЛЮЧЕВОЕ СООБЩЕНИЕ</h2>
             <h3 className="brendXY__product">BREND<span className="brendXY__product_type_bold">XY</span></h3>
@@ -24,7 +27,7 @@ function BrendXY() {
                     <img className="brendXY__data-logo" src={dataLogo} alt="Логотип блока"/>
                     <p className="brendXY__data-text">A arcu cursus vitae</p>
                     </div>
-                <button className="brendXY__button"></button>
+                <button className="brendXY__button" type="button" onClick={props.openPopup}></button>
             </div>
         </div>
     )
