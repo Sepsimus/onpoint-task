@@ -1,5 +1,9 @@
 .popup__list{
     width: 474px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0px;
     margin-left: 213px;
     margin-bottom: 50px;

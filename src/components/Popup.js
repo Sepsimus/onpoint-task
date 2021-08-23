@@ -4,6 +4,10 @@ import page2 from '../image/page-2.png';
 
 function Popup(props) {
 
+    React.useEffect(() => {
+        setPage(1)
+    },[props.popupOpened])
+
     const [page, setPage] = React.useState(1);
 
     function nextPage(){
@@ -15,8 +19,8 @@ function Popup(props) {
     }
 
     const popupClass = props.popupOpened ? 'popup_opened' : '';
-    let popupFirstPage = page === 1 ? 'popup__list-position_hidden' : ''
-    let popupSecondPage = page === 2 ? 'popup__list-position_hidden' : ''
+    let popupFirstPage = page === 1 ? '' : 'popup__list-position_hidden'
+    let popupSecondPage = page === 2 ? '' : 'popup__list-position_hidden'
     let pageImage = page === 1 ? page1 : page2;
     return(
         <div className={`popup ${popupClass}`}>
@@ -54,9 +58,9 @@ function Popup(props) {
                     </li>
                 </ul>
                 <div className="popup__footer">
-                    <button className="popup__arrow" type="button" onClick={previousPage()}/>
+                    <button className="popup__arrow" type="button" onClick={previousPage}/>
                     <img src={pageImage} alt="Страница" className="popup__page-image"/>
-                    <button className="popup__arrow" type="button" onClick={nextPage()}/>
+                    <button className="popup__arrow" type="button" onClick={nextPage}/>
                 </div>
             </div>
         </div>
