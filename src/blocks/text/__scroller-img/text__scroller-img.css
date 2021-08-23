@@ -1,0 +1,6 @@
+.text__scroller-img{
+    position: absolute;
+    z-index: 3;
+    top: -10px;
+    left: -13px
+}

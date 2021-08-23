@@ -24,6 +24,7 @@
 
 @import url(./blocks/text/text.css);
 @import url(./blocks/text/__message-wrapper/text__message-wrapper.css);
+@import url(./blocks/text/__scroller-img/text__scroller-img.css);
 @import url(./blocks/text/__message/_type/text__message-wrapper_type_bold.css);
 @import url(./blocks/text/__message/text__message.css);
 @import url(./blocks/text/__scroller/text__scroller.css);

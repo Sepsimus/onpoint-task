@@ -1,4 +1,5 @@
 import React from "react";
+import scroller from '../image/scroll.png'
 
 function Text() {
     return(
@@ -6,7 +7,7 @@ function Text() {
         <div className="text__layer-1" />
             <h2 className="text__title">ТЕКСТ СООБЩЕНИЯ</h2>
             <div className="text__wrapper">
-                <div className="text__scroller"></div>
+                <div className="text__scroller"><img className="text__scroller-img" src={scroller} alt='Ползунок'/></div>
                 <div className="text__message-wrapper">
                     <p className="text__message">
                         <span className="text__message_type_bold">Lorem ipsum dolor sit amet, </span>consectetur adipiscing elit, sed do 
