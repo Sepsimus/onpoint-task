@@ -1,0 +1,21 @@
+.main__animation-four{
+    position: absolute;
+    top: 32px;
+    left: 744px;
+    animation: fourthBall 5.5s ease infinite;
+}
+
+@keyframes fourthBall {
+    0%{
+        top: 32px;
+        left: 744px;
+    }
+    50%{ 
+        top: 52px;
+        left: 784px;
+    }
+    100%{
+        top: 32px;
+        left: 744px;
+    }
+}

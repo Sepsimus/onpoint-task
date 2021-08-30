@@ -1,0 +1,26 @@
+.brendXY__animation-six{
+    z-index: 1;
+    position: absolute;
+    top: 266px;
+    left: 176px;
+    width: 113px;
+    height: 112px;
+    animation: sixthBubble 7.5s ease infinite;
+}
+
+@keyframes sixthBubble {
+    0%{
+        top: 266px;
+        left: 176px;
+    }
+    50%{ 
+        width: 124px;
+        height: 123px;
+        top: 246px;
+        left: 196px;
+    }
+    100%{
+        top: 266px;
+        left: 176px;
+    }
+}

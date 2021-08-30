@@ -1,0 +1,26 @@
+.popup__animation-three{
+    position: absolute;
+    top: 451px;
+    left: 0px;
+    width: 34px;
+    height: 34px;
+    animation: thirdBubble2 7s ease infinite;
+    z-index: 2;
+}
+
+@keyframes thirdBubble2 {
+    0%{
+        top: 451px;
+        left: 0px;
+    }
+    50%{
+        width: 27px;
+        height: 27px;
+        top: 431px;
+        left: 25px;
+    }
+    100%{
+        top: 451px;
+        left: 0px;
+    }
+}

@@ -21,6 +21,10 @@
 @import url(./blocks/main/__greeting/main__greeting.css);
 @import url(./blocks/main/__title/_type/main__title_type_bold.css);
 @import url(./blocks/main/__title/main__title.css);
+@import url(./blocks/main/__animation-one/main__animation-one.css);
+@import url(./blocks/main/__animation-two/main__animation-two.css);
+@import url(./blocks/main/__animation-three/main__animation-three.css);
+@import url(./blocks/main/__animation-four/main__animation-four.css);
 
 @import url(./blocks/text/text.css);
 @import url(./blocks/text/__message-wrapper/text__message-wrapper.css);
@@ -45,6 +49,14 @@
 @import url(./blocks/brendXY/__effect-text/brendXY__effect-text.css);
 @import url(./blocks/brendXY/__title/brendXY__title.css);
 @import url(./blocks/brendXY/__wrapper/brendXY__wrapped.css);
+@import url(./blocks/brendXY/__animation-one/brendXY__animation-one.css);
+@import url(./blocks/brendXY/__animation-two/brendXY__animation-two.css);
+@import url(./blocks/brendXY/__animation-three/brendXY__animation-three.css);
+@import url(./blocks/brendXY/__animation-four/brendXY__animation-four.css);
+@import url(./blocks/brendXY/__animation-five/brendXY__animation-five.css);
+@import url(./blocks/brendXY/__animation-six/brendXY__animation-six.css);
+@import url(./blocks/brendXY/__animation-seven/brendXY__animation-seven.css);
+@import url(./blocks/brendXY/__animation-eight/brendXY__animation-eight.css);
 
 @import url(./blocks/popup/popup.css);
 @import url(./blocks/popup/_opened/popup_opened.css);
@@ -61,6 +73,14 @@
 @import url(./blocks/popup/__list-number/popup__list-number.css);
 @import url(./blocks/popup/__footer/popup__footer.css);
 @import url(./blocks/popup/__list-position/_hidden/popup__list-position_hidden.css);
+@import url(./blocks/popup/__animation-one/popup__animation-one.css);
+@import url(./blocks/popup/__animation-two/popup__animation-two.css);
+@import url(./blocks/popup/__animation-three/popup__animation-three.css);
+@import url(./blocks/popup/__animation-four/popup__animation-four.css);
+@import url(./blocks/popup/__animation-five/popup__animation-five.css);
+@import url(./blocks/popup/__animation-six/popup__animation-six.css);
+@import url(./blocks/popup/__animation-seven/popup__animation-seven.css);
+@import url(./blocks/popup/__animation-eight/popup__animation-eight.css);
 
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__img/footer__img.css);

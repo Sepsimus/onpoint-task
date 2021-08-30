@@ -1,0 +1,26 @@
+.popup__animation-five{
+    z-index: 1;
+    position: absolute;
+    top: 211px;
+    left: 66px;
+    width: 34px;
+    height: 35px;
+    animation: fifthBubble2 7.5s ease infinite;
+}
+
+@keyframes fifthBubble2 {
+    0%{
+        top: 211px;
+        left: 66px;
+    }
+    50%{ 
+        width: 41px;
+        height: 42px;
+        top: 233px;
+        left: 26px;
+    }
+    100%{
+        top: 211px;
+        left: 66px;
+    }
+}

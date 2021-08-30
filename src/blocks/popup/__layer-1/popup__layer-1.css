@@ -1,11 +1,11 @@
 .popup__layer-1{
     position: absolute;
     z-index: 2;
-    top: 65px;
-    left: 0px;
+    top: 0px;
+    left: -10px;
     width: 316px;
-    height: 703px;
-    background-image: url(../../../image/layer-0.png);
-    background-size: contain;
+    height: 781px;
+    background-image: url(../../../image/layer-11.png);
+    background-size: cover;
     background-repeat: no-repeat;
 }

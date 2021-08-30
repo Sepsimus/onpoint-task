@@ -1,0 +1,26 @@
+.brendXY__animation-eight{
+    z-index: 2;
+    position: absolute;
+    top: 541px;
+    left: 234px;
+    width: 62px;
+    height: 62px;
+    animation: eighthBubble 4s ease infinite;
+}
+
+@keyframes eighthBubble {
+    0%{
+        top: 541px;
+        left: 234px;
+    }
+    50%{
+        width: 68px;
+        height: 68px;
+        top: 531px;
+        left: 244px;
+    }
+    100%{
+        top: 541px;
+        left: 234px;
+    }
+}

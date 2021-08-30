@@ -1,0 +1,22 @@
+.popup__animation-seven{
+    z-index: 1;
+    position: absolute;
+    top: 64px;
+    left: 187px;
+    animation: seventhBubble2 3s ease infinite;
+}
+
+@keyframes seventhBubble2 {
+    0%{
+        top: 64px;
+        left: 187px;
+    }
+    50%{
+        top: 74px;
+        left: 177px;
+    }
+    100%{
+        top: 64px;
+        left: 187px;
+    }
+}

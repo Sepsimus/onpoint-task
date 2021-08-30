@@ -1,0 +1,28 @@
+.popup__animation-one{
+    z-index: 2;
+    position: absolute;
+    top: 703px;
+    left: 174px;
+    animation: firstBubble2 5.5s ease infinite;
+}
+
+@keyframes firstBubble2 {
+    0%{
+        width: 143px;
+        height: 143px;
+        top: 703px;
+        left: 174px;
+    }
+    50%{ 
+        width: 129px;
+        height: 129px;
+        top: 723px;
+        left: 204px;
+    }
+    100%{
+        width: 143px;
+        height: 143px;
+        top: 703px;
+        left: 174px;
+    }
+}

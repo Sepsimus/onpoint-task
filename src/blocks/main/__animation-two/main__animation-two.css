@@ -1,0 +1,21 @@
+.main__animation-two{
+    position: absolute;
+    top: 474px;
+    left: 23px;
+    animation: secondBall 7s ease infinite;
+}
+
+@keyframes secondBall {
+    0%{
+        top: 474px;
+        left: 23px;
+    }
+    50%{ 
+        top: 544px;
+        left: 63px;
+    }
+    100%{
+        top: 474px;
+        left: 23px;
+    }
+}

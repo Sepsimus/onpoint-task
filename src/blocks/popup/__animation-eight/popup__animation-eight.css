@@ -1,0 +1,26 @@
+.popup__animation-eight{
+    z-index: 2;
+    position: absolute;
+    top: 592px;
+    left: 234px;
+    width: 62px;
+    height: 62px;
+    animation: eighthBubble2 4s ease infinite;
+}
+
+@keyframes eighthBubble2 {
+    0%{
+        top: 592px;
+        left: 234px;
+    }
+    50%{
+        width: 68px;
+        height: 68px;
+        top: 582px;
+        left: 244px;
+    }
+    100%{
+        top: 592px;
+        left: 234px;
+    }
+}

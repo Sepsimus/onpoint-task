@@ -1,6 +1,14 @@
 import React from "react";
 import page1 from '../image/page-1.png';
 import page2 from '../image/page-2.png';
+import animationFive from '../image/animationFive.png'
+import animationSix from '../image/animationSix.png'
+import animationSeven from '../image/animationSeven.png'
+import animationEight from '../image/animationEight.png'
+import animationNine from '../image/animationNine.png'
+import animationTen from '../image/animationTen.png'
+import animationEleven from '../image/animationEleven.png'
+import animationTwelve from '../image/animationTwelve.png'
 
 function Popup(props) {
 
@@ -24,7 +32,15 @@ function Popup(props) {
     let pageImage = page === 1 ? page1 : page2;
     return(
         <div className={`popup ${popupClass}`}>
-            <div className="popup__layer-1"/>            
+            <div className="popup__layer-1"/>
+            <img className="popup__animation-one" src={animationFive} alt='пузырь' />
+            <img className="popup__animation-two" src={animationSix} alt='пузырь' />
+            <img className="popup__animation-three" src={animationSeven} alt='пузырь' />
+            <img className="popup__animation-four" src={animationEight} alt='пузырь' />
+            <img className="popup__animation-five" src={animationNine} alt='пузырь' />
+            <img className="popup__animation-six" src={animationTen} alt='пузырь' />
+            <img className="popup__animation-seven" src={animationEleven} alt='пузырь' />
+            <img className="popup__animation-eight" src={animationTwelve} alt='пузырь' />          
             <div className="popup__wrapper">
                 <h2 className="popup__title">ПРЕИМУЩЕСТВА</h2>
                 <h3 className="popup__product">BREND<span className="popup__product_type_bold">XY</span></h3>

@@ -1,0 +1,22 @@
+.brendXY__animation-seven{
+    z-index: 1;
+    position: absolute;
+    top: 13px;
+    left: 187px;
+    animation: seventhBubble 3s ease infinite;
+}
+
+@keyframes seventhBubble {
+    0%{
+        top: 13px;
+        left: 187px;
+    }
+    50%{
+        top: 23px;
+        left: 177px;
+    }
+    100%{
+        top: 13px;
+        left: 187px;
+    }
+}

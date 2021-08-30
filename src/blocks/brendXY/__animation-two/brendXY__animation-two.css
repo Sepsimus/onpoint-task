@@ -1,0 +1,26 @@
+.brendXY__animation-two{
+    position: absolute;
+    z-index: 2;
+    top: 502px;
+    left: 15px;
+    width: 75px;
+    height: 75px;
+    animation: secondBubble 7s ease infinite;
+}
+
+@keyframes secondBubble {
+    0%{
+        top: 502px;
+        left: 15px;
+    }
+    50%{ 
+        width: 60px;
+        height: 60px;
+        top: 522px;
+        left: 40px;
+    }
+    100%{
+        top: 502px;
+        left: 15px;
+    }
+}

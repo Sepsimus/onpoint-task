@@ -1,0 +1,26 @@
+.brendXY__animation-four{
+    z-index: 2;
+    position: absolute;
+    top: 102px;
+    left: 174px;
+    width: 68px;
+    height: 70px;
+    animation: fourthBubble 7.5s ease infinite;
+}
+
+@keyframes fourthBubble {
+    0%{
+        top: 102px;
+        left: 174px;
+    }
+    50%{ 
+        width: 82px;
+        height: 84px;
+        top: 142px;
+        left: 224px;
+    }
+    100%{
+        top: 102px;
+        left: 174px;
+    }
+}

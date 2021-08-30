@@ -1,0 +1,26 @@
+.popup__animation-two{
+    position: absolute;
+    z-index: 2;
+    top: 553px;
+    left: 15px;
+    width: 75px;
+    height: 75px;
+    animation: secondBubble2 7s ease infinite;
+}
+
+@keyframes secondBubble2 {
+    0%{
+        top: 553px;
+        left: 15px;
+    }
+    50%{ 
+        width: 60px;
+        height: 60px;
+        top: 573px;
+        left: 40px;
+    }
+    100%{
+        top: 553px;
+        left: 15px;
+    }
+}

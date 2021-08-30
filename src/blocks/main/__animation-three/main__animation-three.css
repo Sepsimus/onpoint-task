@@ -1,0 +1,26 @@
+.main__animation-three{
+    position: absolute;
+    top: 170px;
+    left: 859px;
+    animation: thirdBall 9s ease infinite;
+    z-index: 1;
+}
+
+@keyframes thirdBall {
+    0%{
+        top: 170px;
+        left: 859px;
+    }
+    33%{
+        top: 120px;
+        left: 809px;
+    }    
+    66%{ 
+        top: 80px;
+        left: 789px;
+    }
+    100%{
+        top: 170px;
+        left: 859px;
+    }
+}

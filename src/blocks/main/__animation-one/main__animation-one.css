@@ -1,0 +1,27 @@
+.main__animation-one{
+    position: absolute;
+    top: 612px;
+    left: 542px;
+    animation: firstBall 5.5s ease infinite;
+}
+
+@keyframes firstBall {
+    0%{
+        width: 228px;
+        height: 224px;
+        top: 612px;
+        left: 542px;
+    }
+    50%{ 
+        width: 205px;
+        height: 202px;
+        top: 602px;
+        left: 532px;
+    }
+    100%{
+        width: 228px;
+        height: 224px;
+        top: 612px;
+        left: 542px;
+    }
+}

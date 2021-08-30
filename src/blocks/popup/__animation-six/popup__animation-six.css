@@ -1,0 +1,26 @@
+.popup__animation-six{
+    z-index: 1;
+    position: absolute;
+    top: 317px;
+    left: 176px;
+    width: 113px;
+    height: 112px;
+    animation: sixthBubble2 7.5s ease infinite;
+}
+
+@keyframes sixthBubble2 {
+    0%{
+        top: 317px;
+        left: 176px;
+    }
+    50%{ 
+        width: 124px;
+        height: 123px;
+        top: 297px;
+        left: 196px;
+    }
+    100%{
+        top: 317px;
+        left: 176px;
+    }
+}

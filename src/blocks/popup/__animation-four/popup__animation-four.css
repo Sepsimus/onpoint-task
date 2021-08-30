@@ -1,0 +1,26 @@
+.popup__animation-four{
+    z-index: 2;
+    position: absolute;
+    top: 153px;
+    left: 174px;
+    width: 68px;
+    height: 70px;
+    animation: fourthBubble2 7.5s ease infinite;
+}
+
+@keyframes fourthBubble2 {
+    0%{
+        top: 153px;
+        left: 174px;
+    }
+    50%{ 
+        width: 82px;
+        height: 84px;
+        top: 193px;
+        left: 224px;
+    }
+    100%{
+        top: 153px;
+        left: 174px;
+    }
+}
