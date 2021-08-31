@@ -1,4 +1,5 @@
 .text__message{
+    position: absolute;
     font-family: 'DINPro';
     font-weight: normal;
     font-size: normal;    

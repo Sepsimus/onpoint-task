@@ -32,7 +32,8 @@ function Slider(props) {
                 <Main className="slider__item"
                     nextPage={props.nextPage}
                 />
-                <Text className="slider__item"/>
+                <Text className="slider__item"
+                    substrateClass={props.substrateClass}/>
                 <BrendXY className="slider__item"
                     position={props.position}
                     popupOpened={props.popupOpened}

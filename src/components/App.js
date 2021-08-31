@@ -38,13 +38,13 @@ function App() {
 
   function swipeSide(){
     if(lastPositionX === 0) return
-    if(lastPositionX - positionX < 0){
+    if(lastPositionX - positionX < -20){
       setPosition(position - 1024);
       setPositionX(0);
       setLastPositionX(0);
       return
     }
-    if(lastPositionX - positionX > 0){
+    if(lastPositionX - positionX > 20){
       setPosition(position + 1024);
       setPositionX(0);
       setLastPositionX(0);
@@ -78,6 +78,7 @@ function App() {
   return (
     <div className={`substrate ${substrateClass}`} >
         <Slider 
+          substrateClass={substrateClass}
           swipeSide={swipeSide} 
           lastSwipePosition={lastSwipePosition} 
           firstSwipePosition={firstSwipePosition}
