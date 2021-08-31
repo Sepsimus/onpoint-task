@@ -1,0 +1,6 @@
+.text__layer-1_type_animation{
+    opacity: 1;
+    top: 0px;
+    left: 368px;
+    transition: top 3s ease-in-out, left 3s ease-in-out;
+}

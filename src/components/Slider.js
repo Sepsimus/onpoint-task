@@ -33,6 +33,7 @@ function Slider(props) {
                     nextPage={props.nextPage}
                 />
                 <Text className="slider__item"
+                    position={props.position}
                     substrateClass={props.substrateClass}/>
                 <BrendXY className="slider__item"
                     position={props.position}

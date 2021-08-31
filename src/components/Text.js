@@ -2,6 +2,7 @@ import React from "react";
 import scroller from '../image/scroll.png'
 
 function Text(props) {
+    const animationClass = props.position === -1024 ? 'text__layer-1_type_animation' : ''
     const [scrollTopPosition, setScrollTopPosition] = React.useState(-10);
     const [textTopPosition, setTextTopPosition] = React.useState(0);
     const [positionY, setPositionY] = React.useState(0);
@@ -35,7 +36,7 @@ function Text(props) {
 
     return(
         <div className="text">
-        <div className="text__layer-1" />
+        <div className={`${animationClass} text__layer-1`} />
             <h2 className="text__title">ТЕКСТ СООБЩЕНИЯ</h2>
             <div className="text__wrapper">
                 <div className="text__scroller"><img style={scrollPosition} className="text__scroller-img" src={scroller} alt='Ползунок'

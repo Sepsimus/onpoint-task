@@ -1,24 +1,12 @@
 .text__layer-1{
     position: absolute;
-    top: 0px;
-    left: 368px;
     width: 1024px;
     height: 768px;
     background-image: url(../../../image/layer-2.png);
     background-size: cover;
     z-index: 0;
-    animation: text__layer 3s ease-in-out;
-}
-
-@keyframes text__layer{
-    0%{
-        opacity: 0;
-        top: 200px;
-        left: 600px
-    }
-    100%{
-        opacity: 1;
-        top: 0px;
-        left: 368px;
-    }
+    transition: top 3s ease-in-out, left 3s ease-in-out;
+    opacity: 0;
+    top: 200px;
+    left: 600px;
 }

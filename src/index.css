@@ -35,6 +35,7 @@
 @import url(./blocks/text/__title/text__title.css);
 @import url(./blocks/text/__wrapper/text__wrapper.css);
 @import url(./blocks/text/__layer-1/text__layer-1.css);
+@import url(./blocks/text/__layer-1/_type/text__layer-1_type_animation.css);
 
 @import url(./blocks/brendXY/brendXY.css);
 @import url(./blocks/brendXY/__button/brendXY__button.css);
